@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 from itertools import cycle
 from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
-from AggregationMethod.AP_aggragation import getText, cut_service
+# from AggregationMethod.AP_aggragation import getText, cut_service
 from sklearn.manifold import TSNE
 
 
