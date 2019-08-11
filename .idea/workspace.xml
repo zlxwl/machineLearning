@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aee490-702b-4015-8af7-bb9033e73462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_01_classmethod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_02_lazy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_03_asydef.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_04_asy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_05_consumer_asy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetCode/greedy/aaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetCode/greedy/jump_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetCode/greedy/stock_best_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBSCANmethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBSCANmethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -58,11 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetCode/greedy/jump_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="511">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +141,7 @@
         <option value="$PROJECT_DIR$/leetCode/greedy/aaa" />
         <option value="$PROJECT_DIR$/leetCode/greedy/stock_best_solution.py" />
         <option value="$PROJECT_DIR$/leetCode/greedy/jump_game.py" />
+        <option value="$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py" />
       </list>
     </option>
   </component>
@@ -152,6 +167,12 @@
               <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_practice" type="462c0819:PsiDirectoryNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_program" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -185,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jump_game">
+  <component name="RunManager" selected="Python.gold_mine">
     <configuration name="Py_03_asydef" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,28 +229,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Py_04_asy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Py_04_asy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Py_05_consumer_asy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,6 +243,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Py_05_consumer_asy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gold_mine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/dynamic_program" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gold_mine" />
         <item itemvalue="Python.jump_game" />
         <item itemvalue="Python.stock_best_solution" />
         <item itemvalue="Python.Py_05_consumer_asy" />
         <item itemvalue="Python.Py_03_asydef" />
-        <item itemvalue="Python.Py_04_asy" />
       </list>
     </recent_temporary>
   </component>
@@ -325,12 +346,12 @@
       <workItem from="1562673321593" duration="4600000" />
       <workItem from="1562743048778" duration="36000" />
       <workItem from="1562743436262" duration="2719000" />
-      <workItem from="1565058046872" duration="26921000" />
+      <workItem from="1565058046872" duration="46902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47853000" />
+    <option name="totallyTimeSpent" value="67834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,7 +377,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3264642" />
@@ -364,8 +385,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,11 +420,27 @@
           <line>20</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="nums[i]" language="Python" />
+        <watch expression="record[w+1-p[j]-1]+g[j]" language="Python" />
+        <watch expression="result[i]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -415,9 +452,25 @@
     <SUITE FILE_PATH="coverage/python_practice$jump_game.coverage" NAME="jump_game Coverage Results" MODIFIED="1565168779577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/greedy" />
     <SUITE FILE_PATH="coverage/python_practice$Py_01_classmethod.coverage" NAME="Py_01_classmethod Coverage Results" MODIFIED="1560755536729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_practice$Py_02_lazy.coverage" NAME="Py_02_lazy Coverage Results" MODIFIED="1560477655168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_practice$gold_mine.coverage" NAME="gold_mine Coverage Results" MODIFIED="1565523404102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/dynamic_program" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>record[w+1-p[j]-1]+g[j]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>record[w-p[j]-1]+g[j]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>nums[i]</expression-string>
         <language-id>Python</language-id>
@@ -426,47 +479,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>nums[i]</expression-string>
+        <expression-string>i+1-p[j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>index &gt;= len(nums)</expression-string>
+        <expression-string>record[i]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>nums[index] == 0 and index &lt; len(nums)</expression-string>
+        <expression-string>i</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(nums)</expression-string>
+        <expression-string>record[i+1-p[j]]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>index</expression-string>
+        <expression-string>g[j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>nums[index]</expression-string>
+        <expression-string>record[i+1-p[j]]+g[j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>prices[index]</expression-string>
+        <expression-string>record[i+1-p[j]-1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>prices[index+2]</expression-string>
+        <expression-string>record[w+1-p[j]]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>prices[start]</expression-string>
+        <expression-string>record[w+1-p[j]]+g[j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -603,8 +656,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetCode/greedy/jump_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="511">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
