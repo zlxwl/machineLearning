@@ -8,20 +8,16 @@ def solution(worker: int) -> int:
     # 解决方法：a = b[:] 替换在java和c++中存在的情况。
     g = [400, 500, 200, 300, 350]
     p = [5, 5, 3, 4, 3]
-
     w = worker
     n = len(g)
-
     # record = [0] * w
     result = [0] * (w+1)
-
     for i in range(0, w+1):
         if i < p[0]:
             result[i] = 0
         else:
             result[i] = g[0]
     record = result[:]
-    print(result)
 
     for j in range(0, n):
         for i in range(0, w+1):
@@ -29,7 +25,6 @@ def solution(worker: int) -> int:
                 result[i] = record[i]
             else:
                 result[i] = max(record[i-p[j]]+g[j], record[i])
-        print(result)
         record = result[:]
 
     return result[-1]
