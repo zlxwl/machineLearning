@@ -19,6 +19,7 @@ def search(name):
             else:
                 searched_list.append(person)
                 search_queue += graphy[person]
+
     return False
 
 
