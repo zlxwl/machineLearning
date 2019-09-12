@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aee490-702b-4015-8af7-bb9033e73462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetCode/dynamic_program/sub_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/sort_and_search/BinarySearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,51 +30,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_cookbook/meta_programming.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode/graphy/BFS.py">
+        <entry file="file://$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="325">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode/graphy/Greedy.py">
+        <entry file="file://$PROJECT_DIR$/leetCode/sort_and_search/BinarySearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="475">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetCode/dynamic_program/sub_str.py">
+        <entry file="file://$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/2060878080/numpy/core/_multiarray_umath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-695">
-              <caret line="7766" column="4" selection-start-line="7766" selection-start-column="4" selection-end-line="7766" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode/graphy/Dijstra.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-229">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="400">
+              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -107,20 +86,24 @@
         <option value="$PROJECT_DIR$/leetCode/graphy/BFS.py" />
         <option value="$PROJECT_DIR$/leetCode/graphy/Greedy.py" />
         <option value="$PROJECT_DIR$/leetCode/dynamic_program/sub_str.py" />
+        <option value="$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py" />
+        <option value="$PROJECT_DIR$/leetCode/sort_and_search/BinarySearch.py" />
+        <option value="$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="y" value="3" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +137,12 @@
             <path>
               <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="sort_and_search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_practice" type="462c0819:PsiDirectoryNode" />
               <item name="python_cookbook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,28 +158,12 @@
               <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.7 (bestNLU) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="2060878080" type="70582d5e:PySkeletonsNode" />
-            </path>
-            <path>
-              <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (bestNLU) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="2060878080" type="70582d5e:PySkeletonsNode" />
-              <item name="numpy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (bestNLU) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="2060878080" type="70582d5e:PySkeletonsNode" />
-              <item name="numpy" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,8 +185,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sub_str">
-    <configuration name="BFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.QuickSort">
+    <configuration name="BellMan-Ford" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,7 +199,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/graphy/BFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Dijstra" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,12 +216,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/graphy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/sort_and_search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/graphy/Dijstra.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/sort_and_search/BinarySearch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gold_mine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,12 +260,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/dynamic_program" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/sort_and_search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/dynamic_program/gold_mine.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.QuickSort" />
+        <item itemvalue="Python.BinarySearch" />
+        <item itemvalue="Python.BellMan-Ford" />
         <item itemvalue="Python.sub_str" />
         <item itemvalue="Python.Greedy" />
-        <item itemvalue="Python.Dijstra" />
-        <item itemvalue="Python.BFS" />
-        <item itemvalue="Python.gold_mine" />
       </list>
     </recent_temporary>
   </component>
@@ -355,12 +328,13 @@
       <workItem from="1565058046872" duration="48348000" />
       <workItem from="1567131453601" duration="778000" />
       <workItem from="1567314752668" duration="7215000" />
-      <workItem from="1567499936860" duration="9621000" />
+      <workItem from="1567499936860" duration="45777000" />
+      <workItem from="1568254903619" duration="3774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86894000" />
+    <option name="totallyTimeSpent" value="126824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,13 +349,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.485" visible="true" weight="0.16257995" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.485" visible="true" weight="0.18603411" />
       <window_info id="Structure" order="1" sideWeight="0.515" side_tool="true" weight="0.5317287" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30477223" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28308025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -394,7 +368,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
@@ -454,31 +428,106 @@
           <line>40</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/sort_and_search/BinarySearch.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/sort_and_search/BinarySearch.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="record[w+1-p[j]-1]+g[j]" language="Python" />
-        <watch expression="result[i]" language="Python" />
+        <watch expression="array[middle]" language="Python" />
+        <watch expression="array[i]" />
+        <watch expression="array[high]" language="Python" />
+        <watch expression="array[low]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_practice$Py_05_consumer_asy.coverage" NAME="Py_05_consumer_asy Coverage Results" MODIFIED="1562685208953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_practice$Dijstra.coverage" NAME="Dijstra Coverage Results" MODIFIED="1567417237923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/graphy" />
     <SUITE FILE_PATH="coverage/python_practice$Py_04_asy.coverage" NAME="Py_04_asy Coverage Results" MODIFIED="1562676564264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_practice$stock_best_solution.coverage" NAME="stock_best_solution Coverage Results" MODIFIED="1565097092208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/greedy" />
-    <SUITE FILE_PATH="coverage/python_practice$Py_03_asydef.coverage" NAME="Py_03_asydef Coverage Results" MODIFIED="1562676597939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_practice$jump_game.coverage" NAME="jump_game Coverage Results" MODIFIED="1565168779577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/greedy" />
-    <SUITE FILE_PATH="coverage/python_practice$BFS.coverage" NAME="BFS Coverage Results" MODIFIED="1567315575280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/graphy" />
+    <SUITE FILE_PATH="coverage/python_practice$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1568277138193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/sort_and_search" />
     <SUITE FILE_PATH="coverage/python_practice$sub_str.coverage" NAME="sub_str Coverage Results" MODIFIED="1567671099267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/dynamic_program" />
     <SUITE FILE_PATH="coverage/python_practice$Greedy.coverage" NAME="Greedy Coverage Results" MODIFIED="1567585548084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/graphy" />
-    <SUITE FILE_PATH="coverage/python_practice$Py_01_classmethod.coverage" NAME="Py_01_classmethod Coverage Results" MODIFIED="1560755536729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_practice$Py_02_lazy.coverage" NAME="Py_02_lazy Coverage Results" MODIFIED="1560477655168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_practice$Py_05_consumer_asy.coverage" NAME="Py_05_consumer_asy Coverage Results" MODIFIED="1562685208953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_practice$stock_best_solution.coverage" NAME="stock_best_solution Coverage Results" MODIFIED="1565097092208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/greedy" />
+    <SUITE FILE_PATH="coverage/python_practice$Py_03_asydef.coverage" NAME="Py_03_asydef Coverage Results" MODIFIED="1562676597939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_practice$BFS.coverage" NAME="BFS Coverage Results" MODIFIED="1567315575280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/graphy" />
+    <SUITE FILE_PATH="coverage/python_practice$BellMan_Ford.coverage" NAME="BellMan-Ford Coverage Results" MODIFIED="1567770565962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/graphy" />
+    <SUITE FILE_PATH="coverage/python_practice$BinarySearch.coverage" NAME="BinarySearch Coverage Results" MODIFIED="1568020576216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/sort_and_search" />
+    <SUITE FILE_PATH="coverage/python_practice$Py_01_classmethod.coverage" NAME="Py_01_classmethod Coverage Results" MODIFIED="1560755536729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_practice$gold_mine.coverage" NAME="gold_mine Coverage Results" MODIFIED="1565523404102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/dynamic_program" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>array[low]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[high]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>https://www.zhihu.com/question/23995189/answer/821501915</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[middle]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>record[w+1-p[j]-1]+g[j]</expression-string>
         <language-id>Python</language-id>
@@ -502,47 +551,52 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>max(cell[i-1][j], cell[i-1][j])</expression-string>
+        <expression-string>array[high]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i+1-p[j]</expression-string>
+        <expression-string>pivot_new_index</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>record[i]</expression-string>
+        <expression-string>pivot_value</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i</expression-string>
+        <expression-string>array[pivot_index]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>record[i+1-p[j]]</expression-string>
+        <expression-string>array[right]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>g[j]</expression-string>
+        <expression-string>temp</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>record[i+1-p[j]]+g[j]</expression-string>
+        <expression-string>array[right-1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>record[i+1-p[j]-1]</expression-string>
+        <expression-string>array[middle] == number</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>record[w+1-p[j]]</expression-string>
+        <expression-string>middle</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[middle]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -649,20 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetCode/greedy/stock_best_solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -695,23 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/graphy/Dijstra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_cookbook/meta_programming.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/graphy/BFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetCode/graphy/Greedy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -726,10 +749,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_cookbook/meta_programming.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/graphy/BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetCode/dynamic_program/sub_str.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="925">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/graphy/Dijstra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7700">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/graphy/BellMan-Ford.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/sort_and_search/BinarySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/sort_and_search/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
         </state>
       </provider>
     </entry>
