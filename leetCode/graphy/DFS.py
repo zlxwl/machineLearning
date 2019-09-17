@@ -1,5 +1,6 @@
 import random
 
+
 def is_seller(name):
     return "e" in name
 
@@ -24,8 +25,7 @@ def search(graphy, name):
             search_stacks.pop()
     return False
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     graphy = {}
     graphy["you"] = ["alice", "bob", "claire"]
     graphy["bob"] = ["anuj", "peggy"]
@@ -35,5 +35,11 @@ if __name__ == '__main__':
     graphy["thon"] = []
     graphy["jonny"] = []
     graphy["peggy"] = []
-    search(graphy, "you")
-    print()
+    print(search(graphy, "you"))
+    
+
+
+
+
+
+
